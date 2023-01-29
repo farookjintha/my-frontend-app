@@ -5,9 +5,6 @@ const Form = (props) => {
     const {title, welcomeMessage} = props; //destructuring the props
 
 
-    // const heading = 'Register user.';
-    // const welcomeMessage = 'Welcome to my App!'
-
     return (
         <div className="form-wrapper">
             <h3>{title}</h3>
